@@ -67,7 +67,7 @@ class TestGroup extends FlxGroup
 		
 		initMap();					
 		
-		gameTimer = new FlxTimer(.2, onTimerComplete, 0);			
+		gameTimer = new FlxTimer(.25, onTimerComplete, 0);			
 		
 		FlxG.watch.add(TestGroup.occupantsArray, "length", "Occupants: ");
 	}		
