@@ -6,6 +6,7 @@ import flixel.FlxState;
 import flixel.text.FlxText;
 import flixel.ui.FlxButton;
 import flixel.math.FlxMath;
+import maingame.GameGroup;
 
 /**
  * A FlxState which can be used for the game's menu.
@@ -22,8 +23,8 @@ class MenuState extends FlxState
 		FlxG.log.redirectTraces = true;
 		FlxG.autoPause = false;
 		
-		var tg:TestGroup = new TestGroup();
-		add(tg);
+		var gg:GameGroup = new GameGroup();
+		add(gg);
 	}
 	
 	/**
